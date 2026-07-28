@@ -1,4 +1,4 @@
-# Solidity 90 Days Challenge 🚀
+# Solidity 90 Days Challenge 
 
 My daily journey learning Solidity and Web3 development — one day, one commit, one step closer to becoming a blockchain developer.
 
@@ -22,8 +22,8 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 ## Follow Along
 I'm documenting this journey daily on:
 - X (Twitter): [@MohammedSolly05](https://twitter.com/MohammedSolly05)
-- LinkedIn
-- Medium
+- LinkedIn: [Mohammed Soliman](https://www.linkedin.com/in/mohammed-soliman05)
+  
 
 ## Goal
 Build a strong foundation in smart contract development and Web3 to complement my backend/AI engineering path, with an eye toward international opportunities in the space.
