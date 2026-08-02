@@ -10,6 +10,7 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 | 20  | State vs Local variables — storage vs stack/memory scope, constants, default values, `immutable` |
 | 21  | Global Variables — `block.timestamp`, `block.number`, `msg.sender`, `msg.value`, `tx.origin` vs `msg.sender` |
 | 22  | Control flow — `if/else` (with `getGrade` example), `for` loops, `while` loops |
+| 23  | Functions & modifiers — function state mutability (`view`/`pure`/`payable`), visibility (state & function level), custom modifiers, constructors |
 *(updated daily)*
 ## Tech & Tools
 - **Solidity** — smart contract language
@@ -22,4 +23,4 @@ I'm documenting this journey daily on:
 ## Goal
 Build a strong foundation in smart contract development and Web3 to complement my backend/AI engineering path, with an eye toward international opportunities in the space.
 ---
-*Day 22 of 90 — consistency compounds.*
+*Day 23 of 90 — consistency compounds.*
