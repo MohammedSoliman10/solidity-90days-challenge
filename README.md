@@ -10,13 +10,15 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 
 | Day | Topic |
 |-----|-------|
-| 18  | Solidity intro — Remix, semantic versioning, data types overview |
-| 19  | Solidity data types deep dive — `address`, `string`, `uint`, `bytes` |
-| 20  | State vs Local variables — storage vs stack/memory scope, constants, default values, `immutable` |
-| 21  | Global Variables — `block.timestamp`, `block.number`, `msg.sender`, `msg.value`, `tx.origin` vs `msg.sender` |
-| 22  | Control flow — `if/else` (with `getGrade` example), `for` loops, `while` loops |
-| 23  | Functions & modifiers — function state mutability (`view`/`pure`/`payable`), visibility (state & function level), custom modifiers, constructors |
-| 24  | Structs & Arrays — struct CRUD, fixed vs dynamic arrays, swap-and-pop removal, combining structs + arrays into a private CRUD registry |
+| 18 | Solidity intro — Remix, semantic versioning, data types overview |
+| 19 | Solidity data types deep dive — `address`, `string`, `uint`, `bytes` |
+| 20 | State vs Local variables — storage vs stack/memory scope, constants, default values, `immutable` |
+| 21 | Global Variables — `block.timestamp`, `block.number`, `msg.sender`, `msg.value`, `tx.origin` vs `msg.sender` |
+| 22 | Control flow — `if/else` (with `getGrade` example), `for` loops, `while` loops |
+| 23 | Functions & modifiers — function state mutability (`view`/`pure`/`payable`), visibility (state & function level), custom modifiers, constructors |
+| 24 | Structs & Arrays — struct CRUD, fixed vs dynamic arrays, swap-and-pop removal, combining structs + arrays into a private CRUD registry |
+| 25 | Mappings & Mini Project — basic mappings, mapping to structs, mapping to arrays, nested mappings, plus a **Student Grading System** mini-project implementing structs, nested mappings, access control, CRUD operations, and the swap-and-pop pattern |
+| 26 | Data Locations, Enums & Events — `storage`, `memory`, and `calldata`; working with enums; creating and emitting events for blockchain logging |
 
 *(updated daily)*
 
@@ -28,13 +30,14 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 ## Follow Along
 
 I'm documenting this journey daily on:
+
 - X (Twitter): [@MohammedSolly05](https://twitter.com/MohammedSolly05)
 - LinkedIn: [Mohammed Soliman](https://www.linkedin.com/in/mohammed-soliman05)
-  
+
 ## Goal
 
 Build a strong foundation in smart contract development and Web3 to complement my backend/AI engineering path, with an eye toward international opportunities in the space.
 
 ---
 
-*Day 24 of 90 — consistency compounds.*
+*Day 26 of 90 — consistency compounds.*
