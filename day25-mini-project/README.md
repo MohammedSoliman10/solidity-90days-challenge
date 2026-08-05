@@ -1,12 +1,12 @@
-# 🎓 Student Grading System — Solidity Smart Contract
+#  Student Grading System — Solidity Smart Contract
 
 A mini-project built as part of my **90-Day Web3 & Blockchain Challenge**, demonstrating core Solidity patterns: structs, nested mappings, access control, and safe on-chain array manipulation.
 
-## 📋 Overview
+##  Overview
 
 A simple on-chain grading system where a **teacher** (the contract deployer) can register students and manage their grades. All data is transparent and tamper-evident — every write is a verifiable transaction on-chain.
 
-## ✨ Features
+##  Features
 
 - **Student registration** — teacher-only, prevents duplicate enrollment
 - **Grade management** — add, update, and delete grades per student
@@ -15,12 +15,12 @@ A simple on-chain grading system where a **teacher** (the contract deployer) can
 - **Access control** — an `onlyTeacher` modifier restricts all write operations to the contract owner
 - **Input validation** — enrollment checks, grade bounds (0–100), array index bounds, and a divide-by-zero guard on average calculation
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Solidity** `^0.8.20`
 - Developed and tested in **Remix IDE**
 
-## 📜 Contract Functions
+##  Contract Functions
 
 | Function | Access | Description |
 |---|---|---|
@@ -32,7 +32,7 @@ A simple on-chain grading system where a **teacher** (the contract deployer) can
 | `getGradeCount(address)` | `view` | Returns number of grades recorded |
 | `getAverageGrade(address)` | `view` | Returns the average of a student's grades |
 
-## 🧠 Key Concepts Practiced
+##  Key Concepts Practiced
 
 - Structs for grouping related student data
 - Mappings for efficient on-chain lookups (`address => Student`)
@@ -41,19 +41,6 @@ A simple on-chain grading system where a **teacher** (the contract deployer) can
 - `view` functions for gas-free off-chain reads
 - Defensive programming: bounds checks, enrollment checks, and range validation on every write
 
-## 🚀 Getting Started
-
-1. Open [Remix IDE](https://remix.ethereum.org/)
-2. Create a new file and paste `StudentGradingSystem.sol`
-3. Compile with Solidity `^0.8.20`
-4. Deploy to a JavaScript VM or testnet
-5. The deploying account becomes the `teacher` — only that account can register students or manage grades
-
-## 🔜 Next Steps
-
-- [ ] Add `event` declarations for on-chain activity tracking (`StudentRegistered`, `GradeAdded`, `GradeUpdated`, `GradeDeleted`)
-- [ ] Write Foundry tests to verify access control and edge cases
-- [ ] Explore a second role (e.g. `assistantTeacher`) with limited permissions
 
 ## 📚 Part of
 
