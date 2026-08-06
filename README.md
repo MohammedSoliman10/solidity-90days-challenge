@@ -19,6 +19,7 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 | 24 | Structs & Arrays — struct CRUD, fixed vs dynamic arrays, swap-and-pop removal, combining structs + arrays into a private CRUD registry |
 | 25 | Mappings & Mini Project — basic mappings, mapping to structs, mapping to arrays, nested mappings, plus a **Student Grading System** mini-project implementing structs, nested mappings, access control, CRUD operations, and the swap-and-pop pattern |
 | 26 | Data Locations, Enums & Events — `storage`, `memory`, and `calldata`; working with enums; creating and emitting events for blockchain logging |
+| 27 | Sending & Receiving ETH, Error Handling — `payable` functions, `receive()` fallback, three ways to send ETH (`transfer`, `send`, `call`), plus `revert`, `require`, and gas-efficient custom errors |
 
 *(updated daily)*
 
@@ -40,4 +41,4 @@ Build a strong foundation in smart contract development and Web3 to complement m
 
 ---
 
-*Day 26 of 90 — consistency compounds.*
+*Day 27 of 90 — consistency compounds.*
