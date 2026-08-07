@@ -41,4 +41,4 @@ Build a strong foundation in smart contract development and Web3 to complement m
 
 ---
 
-*Day 27 of 90 — consistency compounds.*
+*Day 28 of 90 — consistency compounds.*
