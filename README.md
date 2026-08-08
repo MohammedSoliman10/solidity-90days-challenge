@@ -20,6 +20,7 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 | 25 | Mappings & Mini Project — basic mappings, mapping to structs, mapping to arrays, nested mappings, plus a **Student Grading System** mini-project implementing structs, nested mappings, access control, CRUD operations, and the swap-and-pop pattern |
 | 26 | Data Locations, Enums & Events — `storage`, `memory`, and `calldata`; working with enums; creating and emitting events for blockchain logging |
 | 27 | Sending & Receiving ETH, Error Handling — `payable` functions, `receive()` fallback, three ways to send ETH (`transfer`, `send`, `call`), plus `revert`, `require`, and gas-efficient custom errors |
+| 28 | Inheritance & Abstract Contracts — visibility across inheritance (`public`/`internal`/`private`), `virtual`/`override`, event inheritance, modifier inheritance, base constructor calls, and abstract contracts with unimplemented functions |
 
 *(updated daily)*
 
@@ -37,8 +38,12 @@ I'm documenting this journey daily on:
 
 ## Goal
 
+<<<<<<< HEAD
 Build a strong foundation in smart contract development and Web3 to complement my backend/AI engineering path, with an eye toward international opportunities in the space.
 
 ---
 
 *Day 28 of 90 — consistency compounds.*
+=======
+Build a strong foundation in smart contract development and Web3 to complement my backend/AI engineering
+>>>>>>> aa9cf85 (Day 28: Update README progress log)
