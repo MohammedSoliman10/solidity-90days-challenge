@@ -22,7 +22,7 @@ My daily journey learning Solidity and Web3 development — one day, one commit,
 | 27 | Sending & Receiving ETH, Error Handling — `payable` functions, `receive()` fallback, three ways to send ETH (`transfer`, `send`, `call`), plus `revert`, `require`, and gas-efficient custom errors |
 | 28 | Inheritance & Abstract Contracts — visibility across inheritance (`public`/`internal`/`private`), `virtual`/`override`, event inheritance, modifier inheritance, base constructor calls, and abstract contracts with unimplemented functions |
 | 29 | Interfaces — defining and implementing interfaces (`IAnimal`/`Dog`/`Cat`), calling external contracts through an interface without inheritance (`Counter`/`Counter_Caller`), function selector dispatch |
-| 30-31 | Freelancing Escrow Contract (Prototype 1) — structuring a `Job` struct with `enum JobStatus`, `client`/`freelancer` fields, listing fee logic, custom errors, `onlyOwner` modifier, and cleanup pass fixing naming consistency and pragma version |
+| 30-31 | Freelancing Escrow Contract (Prototype 1) — `Job` struct with `enum JobStatus`, full job lifecycle (`postJob`, `acceptJob`, `completeJob`), reputation tracking, `onlyOwner` admin functions, and fixing a key escrow authorization bug (client, not freelancer, confirms job completion to release funds) |
 
 *(updated daily)*
 
